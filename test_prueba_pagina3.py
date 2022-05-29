@@ -7,6 +7,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from webdriver_manager.chrome import ChromeDriverManager
 
+pytest_plugins = ['docker_compose']
+
 def test_prueba_pagina3():
     options = Options()
     options.add_argument("start-maximized")
