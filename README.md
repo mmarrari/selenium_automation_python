@@ -1,4 +1,4 @@
-# Selenium automation python
+# Selenium automation project with python
 This is a simple sample
 
 ## Overview
