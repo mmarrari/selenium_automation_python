@@ -44,6 +44,8 @@ http://localhost:8080/pagina1.html
 
 ## Related links
 [Selenium](https://www.selenium.dev/)
-https://eagleeyenetworks.atlassian.net/wiki/spaces/~380522518/pages/2038136908/ONVIF+Camera+Integration+System+OASIS
 
-https://eagleeyenetworks.atlassian.net/wiki/spaces/IADP/pages/2509537292/Available+Devices+API
+[docker-compose](https://docs.docker.com/compose/)
+[Selenium](https://www.selenium.dev/)
+[Selenium](https://www.selenium.dev/)
+
