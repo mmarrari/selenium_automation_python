@@ -30,22 +30,34 @@ def wait_for_api(function_scoped_container_getter):
     return request_session, api_url
 
 def test_prueba_pagina3(wait_for_api):
+    driver = configure_driver()
+    wait = WebDriverWait(driver, 20)
+    navigate_second_page(driver, wait)
+    navigate_third_page(driver, wait)
+    value_to_test = driver.find_element(By.ID, 'test_value')
+    assert value_to_test.text == "Todo bien"
+
+
+def configure_driver():
     options = Options()
     options.add_argument("start-maximized")
-
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     driver.get('http://localhost:8080/pagina1.html')
     time.sleep(3)
-    wait = WebDriverWait(driver, 20)
-    wait.until(EC.element_to_be_clickable((By.ID, 'link1')))
-    link_to_press = driver.find_element(By.ID, 'link1')
-    link_to_press.click()
-    time.sleep(3)
+    return driver
+
+
+def navigate_third_page(driver, wait):
     wait.until(EC.element_to_be_clickable((By.XPATH, '//a[1]')))
     link_to_press = driver.find_element(By.XPATH, '//a[1]')
     link_to_press.click()
     time.sleep(3)
-    value_to_test = driver.find_element(By.ID, 'test_value')
-    assert value_to_test.text == "Todo bien"
+
+
+def navigate_second_page(driver, wait):
+    wait.until(EC.element_to_be_clickable((By.ID, 'link1')))
+    link_to_press = driver.find_element(By.ID, 'link1')
+    link_to_press.click()
+    time.sleep(3)
 
 
