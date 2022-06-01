@@ -46,6 +46,6 @@ http://localhost:8080/pagina1.html
 [Selenium](https://www.selenium.dev/)
 
 [docker-compose](https://docs.docker.com/compose/)
-[Selenium](https://www.selenium.dev/)
-[Selenium](https://www.selenium.dev/)
+[Docker](https://docs.docker.com/)
+[XPATH](https://www.w3schools.com/xml/xpath_intro.asp)
 
