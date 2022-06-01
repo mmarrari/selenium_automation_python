@@ -4,11 +4,11 @@
 This is a simple example of automating a web browser through selenium and python (intive training)
 
 ## Requirements
-Python 3.6+
-docker
-docker-compose
-virtualenv or other virtual environment(pipenv poetry)
-chrome installed
+* Python 3.6+
+* docker
+* docker-compose
+* virtualenv or other virtual environment(pipenv poetry)
+* chrome installed
 
 ## Usage
 To run the example, please execute the following from the root directory:
