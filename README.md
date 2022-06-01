@@ -43,9 +43,8 @@ The you can access by:
 http://localhost:8080/pagina1.html
 
 ## Related links
-[Selenium](https://www.selenium.dev/)
-
-[docker-compose](https://docs.docker.com/compose/)
-[Docker](https://docs.docker.com/)
-[XPATH](https://www.w3schools.com/xml/xpath_intro.asp)
+*[Selenium](https://www.selenium.dev/)
+*[docker-compose](https://docs.docker.com/compose/)
+*[Docker](https://docs.docker.com/)
+*[XPATH](https://www.w3schools.com/xml/xpath_intro.asp)
 
