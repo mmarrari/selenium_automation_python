@@ -34,19 +34,16 @@ pip install webdriver-manager
 pip install pytest-docker-compose
 ```
 
-## Running with Docker
+## Running with Docker Compose
 
-To run the server on a Docker container, please execute the following from the root directory:
+To run the web page example on a Docker container in a background mode, please execute the following from the root directory:
 
 ```bash
 # building the image
-docker build -t oasis_fastapi .
-
-# starting up a container
-docker run -p 8000:8000 oasis_fastapi
+docker-compose up -d
 ```
 
-
+The you can access by:
 
 http://localhost:8080/pagina1.html
 
