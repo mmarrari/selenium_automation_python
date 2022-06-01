@@ -1,12 +1,7 @@
 # Selenium automation project with python
-This is a simple sample
 
 ## Overview
 This is a simple example of automating a web browser through selenium and python (intive training)
-
-Features:
-- Provide download of a configuration file for the required driver
-- List and retrieve existing drivers
 
 ## Requirements
 Python 3.6+
